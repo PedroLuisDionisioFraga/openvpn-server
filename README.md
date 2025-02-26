@@ -117,7 +117,7 @@ iptables -A FORWARD -d 10.0.70.77 -s 10.0.70.88 -j DROP
 
 <img src="https://github.com/d3vilh/raspberry-gateway/raw/master/images/OVPN_VLANs.png" alt="OpenVPN Subnets" width="700" border="1" />
 
-Check attached `docker-compose-no-ui.yml` file to run openvpn-server withput [OpenVPN UI](https://github.com/d3vilh/openvpn-ui) container.
+Check attached `docker-compose-no-ui.yml` file to run openvpn-server without [OpenVPN UI](https://github.com/d3vilh/openvpn-ui) container.
 
 **Default EasyRSA** configuration can be changed in `~/openvpn-server/config/easy-rsa.vars` file:
 
